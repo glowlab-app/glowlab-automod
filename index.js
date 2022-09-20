@@ -37,7 +37,7 @@ const constructLabels = (array) => {
     let obj = {};
     array.forEach (item => {
         if (item.Name in obj) {
-            if (obj [item.Name].confidence < item.Confidence) obj [item.name].confidence = item.Confidence;
+            if (obj [item.Name].confidence < item.Confidence) obj [item.Name].confidence = item.Confidence;
             
         } else obj [item.Name] = {
             confidence: item.Confidence
