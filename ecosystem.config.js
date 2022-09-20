@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
     script: 'index.js',
-    name: 'sqwid-automod'
+    name: 'glowlab-automod'
   }]
 };
