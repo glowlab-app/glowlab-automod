@@ -1,1 +1,1 @@
-# Sqwid Automod
+# Glowlab Automod
